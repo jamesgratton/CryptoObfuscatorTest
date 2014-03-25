@@ -1,0 +1,12 @@
+Unity/Library
+Unity/Temp
+VisualStudio/SimpleTest/SimpleClassLibrary/obj
+VisualStudio/SimpleTest/SimpleConsole/obj
+SimpleTest.suo
+VisualStudio/SimpleTest/SimpleConsoleObfuscated/obj
+VisualStudio/SimpleTest/SimpleClassLibrary/bin
+VisualStudio/SimpleTest/SimpleConsole/bin
+VisualStudio/SimpleTest/SimpleConsoleObfuscated/bin
+Unity/Assets/Scripts/EntryScript.cs
+Unity/Assets/bin/Obfuscated.dll
+Unity/Assets/bin/UnObfuscated.dll

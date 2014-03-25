@@ -1,0 +1,11 @@
+﻿<Mappings><Entry OldName="SimpleClassLibrary.MainClass..ctor()" NewName="A.CO_SimpleClassLibrary_MainClass..ctor()" />
+<Entry OldName="SimpleClassLibrary.MainClass.GetString()" NewName="A.CO_SimpleClassLibrary_MainClass.CO_GetString()" />
+<Entry OldName="SimpleClassLibrary.MainClass" NewName="A.CO_SimpleClassLibrary_MainClass" />
+<Assembly Name="SimpleClassLibrary"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="SimpleClassLibrary.MainClass" />
+<Method Token="100663298" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663299" Name="GetString" Variables="this;V_0;" ParamCnt="1" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663300" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly></Mappings>
