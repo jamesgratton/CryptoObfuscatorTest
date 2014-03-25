@@ -1,0 +1,29 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [prl_umdd.dll 8.15.10.18354]
+    Renderer: Parallels Display Adapter (WDDM)
+    Vendor:   Parallels
+    VRAM:     600 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 3.5.6f4
+Begin MonoManager ReloadAssembly
+Platform assembly: Z:\git\CryptoObfuscatorTest\StandaloneUnityBuild\TestWindows_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading Z:\git\CryptoObfuscatorTest\StandaloneUnityBuild\TestWindows_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: Z:\git\CryptoObfuscatorTest\StandaloneUnityBuild\TestWindows_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading Z:\git\CryptoObfuscatorTest\StandaloneUnityBuild\TestWindows_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: Z:\git\CryptoObfuscatorTest\StandaloneUnityBuild\TestWindows_Data\Managed\Obfuscated.dll (this message is harmless)
+Loading Z:\git\CryptoObfuscatorTest\StandaloneUnityBuild\TestWindows_Data\Managed\Obfuscated.dll into Unity Child Domain
+- Completed reload, in  0.119 seconds
+Platform assembly: Z:\git\CryptoObfuscatorTest\StandaloneUnityBuild\TestWindows_Data\Managed\System.dll (this message is harmless)
+ArgumentOutOfRangeException: ArgRange_Array
+Parameter name: count
+  at System.Text.UnicodeEncoding.GetString (System.Byte[] bytes, Int32 index, Int32 count) [0x00000] in <filename unknown>:0 
+  at A.cf4768cc3caca2827539a1339004e6b59.c3ca8dccfe0d93271cd65fe9bcb2d5d72 (Int32 c263cbe87edd7a121fa6c6f3fee9e397b) [0x00000] in <filename unknown>:0 
+  at A.CO_SimpleClassLibrary_MainClass.CO_GetString () [0x00000] in <filename unknown>:0 
+  at EntryScript.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
