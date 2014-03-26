@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using UnityEngine;
 
 public class EntryScript : MonoBehaviour 
@@ -6,8 +8,18 @@ public class EntryScript : MonoBehaviour
   {
     var test = new A.CO_SimpleClassLibrary_MainClass();
 
-    var message = test.CO_GetString();    
+    var consoleOut = new StringWriter();
+    Console.SetOut(consoleOut);
 
-    Debug.Log("Obfuscated: " + message);
+    try
+    {
+      var message = test.CO_GetString();    
+      Debug.Log("Obfuscated: " + message);
+    }
+    catch (Exception e)
+    {
+      Debug.LogError(e);
+      Debug.LogWarning(consoleOut.ToString());
+    }
   }
 }
